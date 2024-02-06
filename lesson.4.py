@@ -60,18 +60,24 @@
 
 # Магические методы
 
-class Car:
-    def __init__(self, model, year): 
-         self.model = model
-         self.year = year
+# class Car:
+#     def __init__(self, model, year): 
+#          self.model = model
+#          self.year = year
 
     # def info(self):
     #     print(f"Бренд - {self.model},  Год выпуска -  {self.year} ")
 
-    def __str__(self): # __str__ == print
-        return f"Бренд - {self.model},  Год выпуска -  {self.year} "
+    # def __str__(self): # __str__ == print
+    #     return f"Бренд - {self.model},  Год выпуска -  {self.year} eto str "
+         
+    # def __repr__(self): # __repr__ == print
+        # return f"Бренд - {self.model},  Год выпуска -  {self.year} eto repr"
 
+# Магические методы для арифметических действий 
+#     def __add__(self, other):
+#         return Car()
+# bwm = Car ("bwm - m5", 2022)
+# # bwm.info()
+# print(bwm)
 
-bwm = Car ("bwm - m5", 2022)
-# bwm.info()
-print(bwm)
